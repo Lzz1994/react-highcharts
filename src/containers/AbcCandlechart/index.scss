@@ -1,0 +1,46 @@
+.detail-chart {
+  width: 90%;
+  margin :10px auto;
+   .detail-chart-head{
+     width: 100%;
+     height: 26px;
+     .iresearch-detail-trend-update {
+      width: 50%;
+      float: left;
+      height: 26px;
+      font-size: 14px;
+      color: rgba(165, 165, 165, 1);
+      line-height: 26px;
+    }
+    .detail-trend-set {
+      float:right;
+      height: 26px;
+      width: 50%;
+       .icon {
+          width: 16px;
+          height: 16px;
+          cursor: pointer;
+          display: block;
+          margin: 0 5px;
+          float: right;
+        }
+      }
+   }
+ 
+    .iresearch-detail-trend-chartContainer{
+      margin-top: 40px;
+    }
+  }
+
+
+.detail-chart-modal {
+  .ant-modal-header {
+    height: 40px;
+    border-bottom: none;
+    .ant-modal-title {
+      font-size: 14px;
+      color: rgba(51, 51, 51, 1);
+      line-height: 40px;
+    }
+  }
+}
